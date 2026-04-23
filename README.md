@@ -8,8 +8,8 @@ Python 3.12+
 ## Cài đặt
 git clone 
 cd Hospital_Robot_Nav
----
 ## Cấu trúc thư mục
+```bash
 Hospital_Robot_Nav
 ├── README.md
 ├── run_ekf.sh
@@ -57,8 +57,6 @@ Hospital_Robot_Nav
         │   └── tb3_navigation2.rviz
         ├── setup.cfg
         └── setup.py
-
----
 ## Sử dụng
 Sửa các đường link tại các file thành đường link của bạn:
 -Dòng 770 file omni_base.urdf: <parameters>/home/viet/hospital_robot_nav/install/hospital_robot/share/hospital_robot/config/configuration.yaml</parameters> 
