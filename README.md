@@ -57,6 +57,7 @@ Hospital_Robot_Nav
         │   └── tb3_navigation2.rviz
         ├── setup.cfg
         └── setup.py
+```bash
 ## Sử dụng
 Sửa các đường link tại các file thành đường link của bạn:
 -Dòng 770 file omni_base.urdf: <parameters>/home/viet/hospital_robot_nav/install/hospital_robot/share/hospital_robot/config/configuration.yaml</parameters> 
