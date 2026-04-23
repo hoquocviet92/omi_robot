@@ -13,7 +13,7 @@ rooms:
     center: {x: -2.450, y: 8.356, yaw: -0.3}
 
   room_3:
-    door:   {x: 0.829, y: 8.029, yaw: 1.57}
+    door:   {x: 0.84, y: 8.1, yaw: 1.57}
     inside: {x: 0.881, y: 9.920, yaw: 1.57}
     center: {x: 1.826, y: 10.311, yaw: -1.65}
 
@@ -33,7 +33,7 @@ rooms:
     center: {x: 31.297, y: 8.491, yaw: -0.3}
 
   room_7:
-    door:   {x: 37.325, y: 5.325, yaw: 0.0}
+    door:   {x: 37.325, y: 5.4, yaw: 0.0}
     inside: {x: 38.690, y: 5.418, yaw: 0.0}
     center: {x: 41.154, y: 2.053, yaw: -3.14}
 
@@ -58,7 +58,7 @@ rooms:
     center: {x: 15.725, y: -8.276, yaw: 0.5}
 
   room_12:
-    door:   {x: 7.074, y: -7.855, yaw: -1.57}
+    door:   {x: 7.1, y: -7.855, yaw: -1.57}
     inside: {x: 7.166, y: -10.215, yaw: -1.57}
     center: {x: 5.855, y: -10.217, yaw: 1.57}
 

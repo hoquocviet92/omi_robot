@@ -88,7 +88,7 @@ def generate_launch_description():
                 'world': 'hospital_aws.world',
                 'topic': '/robot_description',
                 'entity_name': 'hospital_robot',
-                'z': '0.65',
+                'z': '0.655',
             }.items(),
         ),
 

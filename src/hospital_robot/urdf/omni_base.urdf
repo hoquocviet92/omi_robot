@@ -407,7 +407,7 @@
   <link name="base_antenna_right_link">
     <inertial>
       <origin rpy="0 0 0" xyz="0.027807 -0.0085125 0.015138"/>
-      <mass value="0.02311"/>
+      <mass value="0.0231"/>
       <inertia ixx="2.3107E-06" ixy="5.0914e-06" ixz="8.5605E-08" iyy="1.7384E-05" iyz="-2.6206e-08" izz="1.8542E-05"/>
     </inertial>
     <visual>

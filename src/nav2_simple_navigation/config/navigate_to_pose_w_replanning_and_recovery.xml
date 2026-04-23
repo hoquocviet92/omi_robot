@@ -41,6 +41,8 @@
             </Sequence>
             <BackUp backup_dist="0.60" backup_speed="0.10" error_code_id="{backup_code_id}"/>
             <Wait wait_duration="1.0"/>
+            <Spin spin_dist="-0.5236" name="SpinRight30"/>
+
           </RoundRobin>
         </ReactiveFallback>
       </Sequence>

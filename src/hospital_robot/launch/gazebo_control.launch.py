@@ -188,7 +188,7 @@ def generate_launch_description():
     )
 
     delayed_spawn = TimerAction(
-        period= 20.0,
+        period= 15.0,
         actions=[spawn_robot]
     )
 
