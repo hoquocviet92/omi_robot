@@ -8,6 +8,7 @@ Python 3.12+
 ## Cài đặt
 git clone 
 cd Hospital_Robot_Nav
+---
 ## Cấu trúc thư mục
 Hospital_Robot_Nav
 ├── README.md
@@ -38,15 +39,11 @@ Hospital_Robot_Nav
         │   ├── ekf.yaml
         │   ├── hospital_map.pgm
         │   ├── hospital_map.yaml
-        │   ├── mapper_params.yaml
         │   ├── nav2_hospital_params.yaml
-        │   ├── nav2_params_wo_BT.yaml
-        │   ├── nav2_params.yaml
         │   ├── navigate_to_pose_w_replanning_and_recovery.xml
         │   └── rooms.yaml
         ├── launch
         │   ├── ekf.launch.py
-        │   ├── go_to_room.launch.py
         │   ├── nav2_control.launch.py
         │   └── navigation2.launch.py
         ├── nav2_simple_navigation
@@ -60,15 +57,21 @@ Hospital_Robot_Nav
         │   └── tb3_navigation2.rviz
         ├── setup.cfg
         └── setup.py
+
+---
 ## Sử dụng
 Sửa các đường link tại các file thành đường link của bạn:
--Dòng 770 file omni_base.urdf: <parameters>/home/thehoa/hospital_robot_nav/install/hospital_robot/share/hospital_robot/config/configuration.yaml</parameters> 
--Sửa dòng đầu của file run_hospital_robot.sh: cd /home/thehoa/hospital_robot_nav
+-Dòng 770 file omni_base.urdf: <parameters>/home/viet/hospital_robot_nav/install/hospital_robot/share/hospital_robot/config/configuration.yaml</parameters> 
+-Dòng 56, 57 file nav2_hospital_params.yaml:  <parameters>/home/viet/hospital_robot_nav/src/nav2_simple_navigation/config/navigate_to_pose_w_replanning_and_recovery.xml</parameters>, 
+  </parameters> /home/viet/hospital_robot_nav/src/nav2_simple_navigation/config/navigate_to_pose_w_replanning_and_recovery.xml</parameters> 
 Lần lượt chạy các câu lệnh sau để có thể sử dụng mã nguồn:
-1. Ctr+'~' để mở terminal và chạy: ./run_hospital_robot.sh
-2. Mở thêm 1 terminal mới:
-    colcon build --symlink-instal
+1. chạy: rm -rf install build log
+2. chạy: colcon build --symlink-instal 
+         source install/setup.bash
+         ros2 launch hosptal_robot gazebo_control.launch.py
+4. Mở thêm 1 terminal mới:
+    colcon build --symlink-instal 
     source install/setup.bash
     ros2 launch nav2_simple_navigation navigation2.launch.py 
-3. Chạy file: navigation_gui.py
+5. Chạy file: navigation_gui.py
 
