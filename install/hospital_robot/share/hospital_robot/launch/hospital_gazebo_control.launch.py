@@ -1,1 +1,0 @@
-/home/thehoa/hospital_robot_nav/src/hospital_robot/launch/hospital_gazebo_control.launch.py

@@ -1,1 +1,1 @@
-/home/thehoa/hospital_robot_nav/src/hospital_robot/launch/display.launch.py
+/home/viet/hospital_robot_nav/src/hospital_robot/launch/display.launch.py

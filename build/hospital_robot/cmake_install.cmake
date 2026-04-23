@@ -1,8 +1,8 @@
-# Install script for directory: /home/thehoa/hospital_robot_nav/src/hospital_robot
+# Install script for directory: /home/viet/hospital_robot_nav/src/hospital_robot
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/thehoa/hospital_robot_nav/install/hospital_robot")
+  set(CMAKE_INSTALL_PREFIX "/home/viet/hospital_robot_nav/install/hospital_robot")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,7 +43,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/thehoa/hospital_robot_nav/build/hospital_robot/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+  include("/home/viet/hospital_robot_nav/build/hospital_robot/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -54,5 +54,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/thehoa/hospital_robot_nav/build/hospital_robot/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/viet/hospital_robot_nav/build/hospital_robot/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

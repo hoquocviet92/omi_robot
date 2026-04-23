@@ -1,1 +1,1 @@
-/home/thehoa/hospital_robot_nav/build/hospital_robot/ament_cmake_environment_hooks/local_setup.bash
+/home/viet/hospital_robot_nav/build/hospital_robot/ament_cmake_environment_hooks/local_setup.bash

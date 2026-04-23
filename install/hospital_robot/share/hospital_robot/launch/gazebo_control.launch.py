@@ -1,1 +1,1 @@
-/home/thehoa/hospital_robot_nav/src/hospital_robot/launch/gazebo_control.launch.py
+/home/viet/hospital_robot_nav/src/hospital_robot/launch/gazebo_control.launch.py

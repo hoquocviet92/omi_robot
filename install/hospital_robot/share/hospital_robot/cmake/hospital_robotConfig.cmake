@@ -1,1 +1,1 @@
-/home/thehoa/hospital_robot_nav/build/hospital_robot/ament_cmake_core/hospital_robotConfig.cmake
+/home/viet/hospital_robot_nav/build/hospital_robot/ament_cmake_core/hospital_robotConfig.cmake

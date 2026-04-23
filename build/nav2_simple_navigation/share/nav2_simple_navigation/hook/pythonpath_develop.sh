@@ -1,3 +1,3 @@
 # generated from colcon_core/shell/template/hook_prepend_value.sh.em
 
-_colcon_prepend_unique_value PYTHONPATH "/home/thehoa/hospital_robot_nav/build/nav2_simple_navigation"
+_colcon_prepend_unique_value PYTHONPATH "/home/viet/hospital_robot_nav/build/nav2_simple_navigation"

@@ -1,13 +1,6 @@
 package.xml
 setup.cfg
 setup.py
-../../build/nav2_simple_navigation/nav2_simple_navigation.egg-info/PKG-INFO
-../../build/nav2_simple_navigation/nav2_simple_navigation.egg-info/SOURCES.txt
-../../build/nav2_simple_navigation/nav2_simple_navigation.egg-info/dependency_links.txt
-../../build/nav2_simple_navigation/nav2_simple_navigation.egg-info/entry_points.txt
-../../build/nav2_simple_navigation/nav2_simple_navigation.egg-info/requires.txt
-../../build/nav2_simple_navigation/nav2_simple_navigation.egg-info/top_level.txt
-../../build/nav2_simple_navigation/nav2_simple_navigation.egg-info/zip-safe
 config/ekf.yaml
 config/hospital_map.pgm
 config/hospital_map.yaml
@@ -18,11 +11,9 @@ config/nav2_params_wo_BT.yaml
 config/navigate_to_pose_w_replanning_and_recovery.xml
 config/rooms.yaml
 launch/ekf.launch.py
-launch/go_to_room.launch.py
 launch/nav2_control.launch.py
 launch/navigation2.launch.py
 nav2_simple_navigation/__init__.py
-nav2_simple_navigation/navGUI.py
 nav2_simple_navigation/navigation_gui.py
 nav2_simple_navigation.egg-info/PKG-INFO
 nav2_simple_navigation.egg-info/SOURCES.txt

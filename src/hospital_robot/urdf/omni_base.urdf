@@ -767,7 +767,7 @@
   <gazebo>
   <plugin filename="libgz_ros2_control-system.so"
           name="gz_ros2_control::GazeboSimROS2ControlPlugin">
-    <parameters>/home/thehoa/hospital_robot_nav/install/hospital_robot/share/hospital_robot/config/configuration.yaml</parameters>
+    <parameters>/home/viet/hospital_robot_nav/install/hospital_robot/share/hospital_robot/config/configuration.yaml</parameters>
   </plugin>
 
 </gazebo>

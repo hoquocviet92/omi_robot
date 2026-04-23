@@ -294,8 +294,8 @@ def main():
         QListWidget { background: #313244; border: 1px solid #45475a; border-radius: 5px; }
     """)
 
-    rooms_filepath = "/home/thehoa/hospital_robot_nav/src/nav2_simple_navigation/config/rooms.yaml"
-    image_filepath = "/home/thehoa/hospital_robot_nav/src/nav2_simple_navigation/nav2_simple_navigation/map.png"
+    rooms_filepath = "/home/viet/hospital_robot_nav/src/nav2_simple_navigation/config/rooms.yaml"
+    image_filepath = "/home/viet/hospital_robot_nav/src/nav2_simple_navigation/nav2_simple_navigation/map.png"
 
     try:
         rooms_data = yaml.safe_load(open(rooms_filepath, 'r')).get('rooms', {})
