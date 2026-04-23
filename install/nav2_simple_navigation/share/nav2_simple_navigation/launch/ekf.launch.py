@@ -1,1 +1,0 @@
-/home/viet/hospital_robot_nav/build/nav2_simple_navigation/launch/ekf.launch.py

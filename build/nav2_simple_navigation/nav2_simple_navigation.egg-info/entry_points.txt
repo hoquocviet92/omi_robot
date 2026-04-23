@@ -1,2 +1,0 @@
-[console_scripts]
-go_to_room = nav2_simple_navigation.go_to_room:main
